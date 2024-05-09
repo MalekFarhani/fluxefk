@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: efk
+  namespace: efk
+spec:
+ interval: 30s
+ ref:
+   branch: main
+ url: https://github.com/MalekFarhani/EFK

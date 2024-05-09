@@ -4,7 +4,7 @@ metadata:
   name: efk
   namespace: efk
 spec:
- interval: 30s
- ref:
-   branch: main
- url: https://github.com/MalekFarhani/EFK
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/MalekFarhani/EFK
